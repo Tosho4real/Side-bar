@@ -163,3 +163,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    position: fixed;
+  }
+  .main-content.active {
+    width: (100% - 80px);
+  }
+}
